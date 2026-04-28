@@ -2,14 +2,15 @@
 (function() {
   "use strict";
   /**
-   * The starting point in our program, setting up a listener
+   * The starting point in the program, setting up a listener
    * for the "load" event on the window, signaling the HTML DOM has been constructed
    * on the page. When this event occurs, the attached function (init) will be called.
    */
   window.addEventListener("load", init);
 
   /*
-   * TODO: Write a function comment using JSDoc.
+   * Initialize the page by setting up event listeners for the 
+   * encrypt-it and reset buttons.
    */
   function init() 
   {
